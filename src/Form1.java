@@ -7,6 +7,7 @@ public class Form1 extends JFrame{
     private JPanel Panel;
     private JButton CreateButton;
     private JLabel Bye;
+    private JButton TreeButton;
 
     public Form1() {
         setContentPane(Panel);
@@ -18,6 +19,12 @@ public class Form1 extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                 HelloLabel.setText("Пока");
+            }
+        });
+        TreeButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Bye.setText("Привет");
             }
         });
     }
