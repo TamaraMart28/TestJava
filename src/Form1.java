@@ -6,6 +6,7 @@ public class Form1 extends JFrame{
     private JLabel HelloLabel;
     private JPanel Panel;
     private JButton CreateButton;
+    private JLabel Bye;
 
     public Form1() {
         setContentPane(Panel);
